@@ -13,7 +13,7 @@ public class Main {
 		
 		if(data==061016)
 			new Exercicios061016.Treino();
-		else if(data==071016)
+		else //if(data==071016)
 			new Exercicios071016.Treino();
 	}
 
