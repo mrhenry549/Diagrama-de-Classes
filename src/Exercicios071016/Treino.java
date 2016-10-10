@@ -1,4 +1,5 @@
-package exercicios070616;
+package Exercicios071016;
+
 
 import java.util.Random;
 import java.util.Scanner;
