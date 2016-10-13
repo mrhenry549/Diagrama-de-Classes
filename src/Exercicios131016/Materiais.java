@@ -3,16 +3,15 @@ package Exercicios131016;
 public class Materiais {
 
 	String tipo, classe, cor, marca;
-	double peso, preco;
+	double peso;
 	
-	public Materiais(String tipo, String classe, String cor, String marca, double peso, double preco) {
+	public Materiais(String tipo, String classe, String cor, String marca, double peso) {
 		super();
 		this.tipo = tipo;
 		this.classe = classe;
 		this.cor = cor;
 		this.marca = marca;
 		this.peso = peso;
-		this.preco = preco;
 	}
 
 	public String getTipo() {
@@ -53,14 +52,6 @@ public class Materiais {
 
 	public void setPeso(double peso) {
 		this.peso = peso;
-	}
-
-	public double getPreco() {
-		return preco;
-	}
-
-	public void setPreco(double preco) {
-		this.preco = preco;
 	}
 	
 }

@@ -4,9 +4,9 @@ public class Animal {
 
 	String tipo, raca, cor;
 	int idadeAno, idadeMes;
-	double peso, preco;
+	double peso;
 
-	public Animal(String tipo, String raca, String cor, int idadeAno, int idadeMes, double peso, double preco) {
+	public Animal(String tipo, String raca, String cor, int idadeAno, int idadeMes, double peso) {
 		super();
 		this.tipo = tipo;
 		this.raca = raca;
@@ -14,7 +14,6 @@ public class Animal {
 		this.idadeAno = idadeAno;
 		this.idadeMes = idadeMes;
 		this.peso = peso;
-		this.preco = preco;
 	}
 
 	public String getTipo() {
@@ -39,14 +38,6 @@ public class Animal {
 
 	public void setCor(String cor) {
 		this.cor = cor;
-	}
-
-	public double getPreco() {
-		return preco;
-	}
-
-	public void setPreco(double preco) {
-		this.preco = preco;
 	}
 
 	public double getPeso() {

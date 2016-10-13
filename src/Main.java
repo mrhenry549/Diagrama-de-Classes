@@ -15,12 +15,12 @@ public class Main {
 			new Exercicios061016.Treino();
 		else if(data==071016)
 			new Exercicios071016.Treino();
-		else if(data==101016)
+		else if(data==101016)*/
 			new Exercicios101016.BigBoss();
-		else if(data==131016)*/
-			new Exercicios131016.Animal();
-		//else
-			//System.out.println("Esse exercicio ainda não existe");
+		/*else if(data==131016)
+			new Exercicios131016.Animal();*/
+		/*else
+			System.out.println("Esse exercicio ainda não existe");*/
 	}
 
 }

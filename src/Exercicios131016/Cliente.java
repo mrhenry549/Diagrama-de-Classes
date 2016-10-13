@@ -2,15 +2,14 @@ package Exercicios131016;
 
 public class Cliente {
 
-	String nome, morada, contacto, formaPagamento;
+	String nome, morada, contacto;
 	double nif;
 
-	public Cliente(String nome, String morada, String contacto, String formaPagamento, double nif) {
+	public Cliente(String nome, String morada, String contacto, double nif) {
 		super();
 		this.nome = nome;
 		this.morada = morada;
 		this.contacto = contacto;
-		this.formaPagamento = formaPagamento;
 		this.nif = nif;
 	}
 
@@ -46,12 +45,4 @@ public class Cliente {
 		this.nif = nif;
 	}
 
-	public String getFormaPagamento() {
-		return formaPagamento;
-	}
-
-	public void setFormaPagamento(String formaPagamento) {
-		this.formaPagamento = formaPagamento;
-	}
-	
 }
