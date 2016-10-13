@@ -18,7 +18,7 @@ public class Main {
 		else if(data==101016)*/
 			new Exercicios101016.BigBoss();
 		/*else if(data==131016)
-			new Exercicios131016.Animal();*/
+			new Exercicios131016.Loja();*/
 		/*else
 			System.out.println("Esse exercicio ainda não existe");*/
 	}

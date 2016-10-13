@@ -2,26 +2,47 @@ package Exercicios131016;
 
 public class Animal {
 
-	String tipo, raca, cor;
-	int idadeAno, idadeMes;
-	double peso;
-
-	public Animal(String tipo, String raca, String cor, int idadeAno, int idadeMes, double peso) {
+	public static final int INDIFERENTE=0, PEQUENO=1, MEDIO=2, GRANDE=3;
+	
+	char sexo;
+	int id, porte;
+	String raca, dataNascimento, cor;
+	boolean vacinasDia;
+	
+	public Animal(char sexo, int id, int porte, String raca, String dataNascimento, String cor,
+			boolean vacinasDia) {
 		super();
-		this.tipo = tipo;
+		this.sexo = sexo;
+		this.id = id;
+		this.porte = porte;
 		this.raca = raca;
+		this.dataNascimento = dataNascimento;
 		this.cor = cor;
-		this.idadeAno = idadeAno;
-		this.idadeMes = idadeMes;
-		this.peso = peso;
+		this.vacinasDia = vacinasDia;
 	}
 
-	public String getTipo() {
-		return tipo;
+	public char getSexo() {
+		return sexo;
 	}
 
-	public void setTipo(String tipo) {
-		this.tipo = tipo;
+	public void setSexo(char sexo) {
+		this.sexo = sexo;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getPorte() {
+		return porte;
+	}
+
+	public void setPorte(int porte) {
+		this.porte = porte;
 	}
 
 	public String getRaca() {
@@ -32,6 +53,14 @@ public class Animal {
 		this.raca = raca;
 	}
 
+	public String getDataNascimento() {
+		return dataNascimento;
+	}
+
+	public void setDataNascimento(String dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
+
 	public String getCor() {
 		return cor;
 	}
@@ -40,28 +69,12 @@ public class Animal {
 		this.cor = cor;
 	}
 
-	public double getPeso() {
-		return peso;
+	public boolean isVacinasDia() {
+		return vacinasDia;
 	}
 
-	public void setPeso(double peso) {
-		this.peso = peso;
+	public void setVacinasDia(boolean vacinasDia) {
+		this.vacinasDia = vacinasDia;
 	}
-
-	public int getIdadeAno() {
-		return idadeAno;
-	}
-
-	public void setIdadeAno(int idadeAno) {
-		this.idadeAno = idadeAno;
-	}
-
-	public int getIdadeMes() {
-		return idadeMes;
-	}
-
-	public void setIdadeMes(int idadeMes) {
-		this.idadeMes = idadeMes;
-	}
-
+	
 }
